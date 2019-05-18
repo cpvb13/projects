@@ -38,7 +38,7 @@ class Result extends Component {
     const { chosenOptions } = this.props;
     const numChosen = _.size(chosenOptions);
 
-    if (numChosen === 5 && this.props.displayModal) {
+    if (numChosen === 1 && this.props.displayModal) {
       return (
         <div className="result-container" ref="results">
           <div className="result-container-item">
@@ -50,23 +50,14 @@ class Result extends Component {
               <span aria-hidden="true">&times;</span>
             </button>
             <div className="selected-rapper">
-              <h1>{`You are ${this.state.rapper}!`}</h1>
-              <p>{this.state.description}</p>
-              <img className="img-rounded" src={`/assets/images/${this.state.image}`}/>
+            <img className="img-rounded" src={`/assets/images/${this.state.image}`}/>
+              <h1 className="resHead">{`You should hire ${this.state.rapper}!`}</h1>
+              <h1 className="resEnd">{this.state.description}</h1>
+              <h1 className="resDes">{`If you have room in your company for someone like me, feel free to reach me at: `}
+                <a href='mailto:cait@berkeley.edu'>cait@berkeley.edu</a>
+              </h1>
             </div>
-            <form onSubmit={this.handleSubmit.bind(this)}>
-              <div className="form-group">
-                <label>Your email</label>
-                <input
-                  type="email"
-                  value={this.state.email}
-                  onChange={this.handleInputChange.bind(this)}
-                  className="form-control"
-                  placeholder="test@example.com"
-                  autoFocus />
-              </div>
-              <button className="btn btn-primary">Email My Results</button>
-            </form>
+            
           </div>
         </div>
       );

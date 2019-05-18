@@ -2,39 +2,39 @@ export default function() {
   return [
     {
       id: 1,
-      rapper: 'The Notorious B.I.G.',
-      image: 'rapper1.jpg',
-      description: 'You are a force to be reckoned with, but there is a quiet intellectual buried deep inside. Even though you are on the heavy side, people love you!'
+      rapper: 'Caitlin',
+      image: 'smile.png',
+      description: 'She is a problem solver at heart and enjoys new challenges! She hopes to find fast-paced work that requires a lot of collaboration and caffeine!'
     },
     {
       id: 2,
-      rapper: '2Pac',
-      image: 'rapper2.jpg',
-      description: 'You love to party, and your smile lights up the room. You must be a regular at the gym because your ab muscles are on point!'
+      rapper: 'Caitlin',
+      image: 'smile.png',
+      description: 'She is eager to join a project to learn any phase from the ideation to implementation. Education always is more enjoyable outside the classroom!'
     },
     {
       id: 3,
-      rapper: 'Jay-Z',
-      image: 'rapper3.jpg',
-      description: 'You pull yourself up by the bootstraps and are able to create something big out of nothing. Your everyday hussle is going to pay off soon!'
+      rapper: 'Caitlin',
+      image: 'smile.png',
+      description: 'She is purposeful in her interactions and always eager to participate in some greater good! She thrives on getting things done and enjoys the adrenaline bursts before deadlines.'
     },
     {
       id: 4,
-      rapper: 'Andre 3000',
-      image: 'rapper4.jpg',
-      description: 'You are a weirdo, but totally in a good way! While everyone else is caught up in the rat race of life, you walk to the beat of your own drum.'
+      rapper: 'Caitlin',
+      image: 'smile.png',
+      description: 'She is a problem solver at heart and enjoys new challenges! She hopes to find fast-paced work that requires a lot of collaboration and caffeine!'
     },
     {
       id: 5,
-      rapper: 'Snoop Dogg',
-      image: 'rapper5.jpg',
-      description: 'You get high on life, amongst other things! Nothing can bring you down because you are the chillest person in the world.'
+      rapper: 'Caitlin',
+      image: 'smile.png',
+      description: 'She is purposeful in her interactions and always eager to participate in some greater good! She thrives on getting things done and enjoys the adrenaline bursts before deadlines.'
     },
     {
       id: 6,
-      rapper: 'Lauryn Hill',
-      image: 'rapper6.jpg',
-      description: 'You are a jack of all trades, and a master of all of them! You are a beautiful person both inside and out.'
+      rapper: 'Caitlin',
+      image: 'smile.png',
+      description: 'She is looking for a supportive company culture that can shape her into the type of coworker you wish you had 5 years ago. She is interested in any project at any stage, whether ideation or implementation.'
     }
   ];
 }

@@ -2,62 +2,62 @@ export default function() {
   return [
     {
       id: 1,
-      question: 'Choose a car',
+      question: 'Where do you feel most productive?',
       options: [
-        { img: 'car1.jpg', points: 1 },
-        { img: 'car2.jpg', points: 2 },
-        { img: 'car3.jpg', points: 3 },
-        { img: 'car4.jpg', points: 4 },
-        { img: 'car5.jpg', points: 5 },
-        { img: 'car6.jpg', points: 6 }
+        { img: 'Office_Lit.jpeg', points: 1 },
+        { img: 'Office_Cubicle.jpg', points: 2 },
+        { img: 'Office_Loft.jpg', points: 3 },
+        { img: 'Office_Fit.jpg', points: 4 },
+        { img: 'Office_Office.jpeg', points: 5 },
+        { img: 'Office_Creative.jpg', points: 6 }
       ]
     },
     {
       id: 2,
-      question: 'Choose a snack',
+      question: 'Which activity is the most satisfying?',
       options: [
-        { img: 'snack1.jpg', points: 1 },
-        { img: 'snack2.jpg', points: 2 },
-        { img: 'snack3.jpg', points: 3 },
-        { img: 'snack4.jpg', points: 4 },
-        { img: 'snack5.jpg', points: 5 },
-        { img: 'snack6.jpg', points: 6 }
+        { img: 'ActFeed.jpg', points: 1 },
+        { img: 'ActConflict.jpg', points: 2 },
+        { img: 'ActPhone.jpg', points: 3 },
+        { img: 'ActMentor.jpg', points: 4 },
+        { img: 'ActToDo.jpg', points: 5 },
+        { img: 'ActCollab.jpg', points: 6 }
       ]
     },
     {
       id: 3,
-      question: 'Choose a movie genre',
+      question: 'Which soft skill changes someone from "super" to "super duper"?',
       options: [
-        { img: 'movie1.jpg', points: 1 },
-        { img: 'movie2.jpg', points: 2 },
-        { img: 'movie3.jpg', points: 3 },
-        { img: 'movie4.jpg', points: 4 },
-        { img: 'movie5.jpg', points: 5 },
-        { img: 'movie6.jpg', points: 6 }
+        { img: 'Non1.jpeg', points: 1 },
+        { img: 'Non2.jpeg', points: 2 },
+        { img: 'Non3.jpeg', points: 3 },
+        { img: 'Non4.jpeg', points: 4 },
+        { img: 'Non5.jpeg', points: 5 },
+        { img: 'Non6.jpeg', points: 6 }
       ]
     },
     {
       id: 4,
-      question: 'Choose a sport',
+      question: 'Which technical skill is the most useful?',
       options: [
-        { img: 'sport1.jpg', points: 1 },
-        { img: 'sport2.jpg', points: 2 },
-        { img: 'sport3.jpg', points: 3 },
-        { img: 'sport4.jpg', points: 4 },
-        { img: 'sport5.jpg', points: 5 },
-        { img: 'sport6.jpg', points: 6 }
+        { img: 'Tech1.jpeg', points: 1 },
+        { img: 'Tech2.jpeg', points: 2 },
+        { img: 'Tech3.jpeg', points: 3 },
+        { img: 'Tech4.jpeg', points: 4 },
+        { img: 'Tech5.jpeg', points: 5 },
+        { img: 'Tech6.jpeg', points: 6 }
       ]
     },
     {
       id: 5,
-      question: 'Where do you want to go?',
+      question: 'Pick a word cluster!',
       options: [
-        { img: 'location1.jpg', points: 1 },
-        { img: 'location2.jpg', points: 2 },
-        { img: 'location3.jpg', points: 3 },
-        { img: 'location4.jpg', points: 4 },
-        { img: 'location5.jpg', points: 5 },
-        { img: 'location6.jpg', points: 6 }
+        { img: 'word1.jpg', points: 1 },
+        { img: 'word2.jpg', points: 2 },
+        { img: 'word3.jpg', points: 3 },
+        { img: 'word4.jpg', points: 4 },
+        { img: 'word5.jpg', points: 5 },
+        { img: 'word6.jpg', points: 6 }
       ]
     }
   ];

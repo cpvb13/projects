@@ -19,7 +19,7 @@ app.use(bodyParser.json({ type: '*/*' }));
 
 // Express-mailer set up
 mailer.extend(app, {
-  from: 'Ya boi, Stephen',
+  from: 'Ya girl, cait',
   host: 'smtp.gmail.com',
   secureConnection: true,
   port: 465,
@@ -39,7 +39,7 @@ app.get('*', (req, res) => {
 app.post('/email', (req, res, next) => {
   app.mailer.send('email', {
     to: req.body.email,
-    subject: 'Your quizBuzz Results!',
+    subject: 'Your Employee Match Results!',
     rapper: req.body.rapper,
     description: req.body.description
   }, (err) => {
